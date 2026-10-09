@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — FreoSync</title>
+<link rel="icon" href="logo.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><img src="logo.svg" alt=""> FreoSync
+  <nav><a href="./">Início</a><a href="privacidade.html">Privacidade</a></nav></header>
+<main>
+  <h1>Política de Privacidade</h1>
+  <p class="muted">Última atualização: 8 de outubro de 2026</p>
+
+  <p>O FreoSync é um aplicativo de desktop para Linux que sincroniza arquivos entre o computador do
+  usuário e o Google Drive do próprio usuário. Esta política explica quais dados ele acessa e o que faz com eles.</p>
+
+  <h2>1. Dados acessados</h2>
+  <p>Com a sua autorização (OAuth 2.0 do Google), o FreoSync acessa:</p>
+  <ul>
+    <li><b>Arquivos e pastas do seu Google Drive</b> (nomes, conteúdo, datas, tamanhos, pastas e
+    itens compartilhados), por meio do escopo <code>https://www.googleapis.com/auth/drive</code>;</li>
+    <li><b>Informações básicas da conta</b>: nome, endereço de e-mail e foto do perfil, para identificar a
+    conta na interface do aplicativo.</li>
+  </ul>
+
+  <h2>2. Como os dados são usados</h2>
+  <p>Os dados são usados <b>somente</b> para oferecer a função do aplicativo: listar seus arquivos,
+  baixar para o seu computador os itens que você escolher sincronizar, enviar ao seu Drive as
+  alterações feitas no computador e manter os dois lados iguais.</p>
+
+  <h2>3. Armazenamento e compartilhamento</h2>
+  <ul>
+    <li>Tudo é processado <b>localmente, no seu computador</b>. O FreoSync não tem servidores e não envia seus
+    dados a ninguém além do próprio Google.</li>
+    <li>O token de acesso fica guardado no chaveiro do sistema (gnome-keyring) do seu computador.</li>
+    <li>Uma cópia dos metadados (nomes, datas, identificadores) fica num banco local, em
+    <code>~/.local/share/freosync</code>, para que a sincronização funcione.</li>
+    <li>Nenhum dado é vendido, compartilhado com terceiros, usado para publicidade ou para treinar
+    modelos de inteligência artificial.</li>
+  </ul>
+
+  <h2>4. Uso limitado</h2>
+  <p>O uso e a transferência de informações recebidas das APIs do Google pelo FreoSync seguem a
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de dados do usuário dos
+  serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+  <h2>5. Como revogar o acesso e apagar os dados</h2>
+  <ul>
+    <li>Remova a conta no FreoSync (Configurações da conta → Remover conta): o acesso é revogado e os dados
+    locais do aplicativo são apagados.</li>
+    <li>Ou revogue a qualquer momento em
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Seus arquivos no Google Drive não são afetados pela remoção.</li>
+  </ul>
+
+  <h2>6. Contato</h2>
+  <p>Dúvidas sobre esta política: Gabriel Freo — <a href="mailto:gabrielcfreo@gmail.com">gabrielcfreo@gmail.com</a></p>
+</main>
+<footer>FreoSync · aplicativo pessoal, sem fins comerciais</footer>
+</body>
+</html>
